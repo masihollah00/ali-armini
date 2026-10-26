@@ -1,120 +1,116 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090711">
-  <meta name="description" content="MASIH HACKRING RAP؛ کشف رپرها، معرفی آثار و پخش موسیقی رپ فارسی.">
-  <meta property="og:title" content="MASIH HACKRING | RAP فارسی">
-  <meta property="og:description" content="دنیای رپ فارسی؛ هنرمندها و آهنگ‌های تازه را کشف کن.">
-  <meta property="og:type" content="website">
-  <title>MASIH HACKRING | RAP فارسی</title>
-  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0612">
+  <meta name="description" content="علی آرمینی؛ دنیای رپ فارسی، معرفی هنرمندان و کشف آهنگ‌ها. طراحی سایت توسط مسیح هکرینگ.">
+  <title>علی آرمینی | دنیای رپ فارسی</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
-  <header class="site-header">
-    <a class="brand" href="#" aria-label="صفحه اصلی">
-      <span class="brand-mark">MH<span>✦</span></span>
-      <span class="brand-copy"><b>MASIH HACKRING</b><small>RAP فارسی</small></span>
-    </a>
-    <button class="menu-toggle" id="menuToggle" aria-label="باز کردن منو" aria-expanded="false">☰</button>
-    <nav class="main-nav" id="mainNav">
-      <a class="active" href="#home">خانه</a><a href="#tracks">آهنگ‌ها</a><a href="#artists">رپرها</a><a href="#about">درباره ما</a>
+  <header class="header">
+    <a class="logo" href="#">علی <span>آرمینی</span></a>
+    <nav>
+      <a href="#home">خانه</a>
+      <a href="#music">آهنگ‌ها</a>
+      <a href="#artists">رپرها</a>
+      <a href="#about">درباره ما</a>
     </nav>
-    <a class="header-cta" href="#tracks">کشف موسیقی <span>↗</span></a>
   </header>
 
   <main>
-    <section class="hero section-wrap" id="home">
+    <section class="hero" id="home">
       <div class="hero-content">
-        <div class="eyebrow"><span class="live-dot"></span> نبض تازه‌ی رپ فارسی</div>
-        <h1>صدای خودتو<br> <span>بلندتر کن.</span></h1>
-        <p class="hero-lead">جایی برای کشف صداهای تازه، دنبال‌کردن هنرمندها و شنیدن رپ فارسی؛ با حال‌وهوای خودت.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#tracks">شنیدن آهنگ‌ها <span>▶</span></a>
-          <a class="button button-ghost" href="#artists">کشف رپرها <span>↙</span></a>
-        </div>
-        <div class="hero-stats">
-          <div><b>رپ فارسی</b><small>یک صدا، هزار روایت</small></div>
-          <i></i>
-          <div><b>هنرمندهای مستقل</b><small>صداهای تازه را پیدا کن</small></div>
-        </div>
+        <span class="tag">صدای نسل جدید 🎤</span>
+        <h1>به دنیای رپ<br><span>علی آرمینی</span><br>خوش اومدی</h1>
+        <p>اینجا قراره با رپرها آشنا بشی، آهنگ‌های جدید رو کشف کنی و وارد دنیای رپ فارسی بشی.</p>
+        <a class="button" href="#music">کشف آهنگ‌ها ↓</a>
       </div>
-      <div class="hero-art" aria-label="طرح گرافیکی موسیقی">
-        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
-        <div class="cover-card">
-          <div class="cover-top"><span>MH / SOUND</span><span>VOL. 01</span></div>
-          <div class="cover-glyph">رَپ<span>!</span></div>
-          <div class="cover-lines"></div>
-          <div class="cover-bottom"><b>UNDERGROUND<br>ENERGY</b><span>IRANIAN<br>HIP HOP</span></div>
-        </div>
-        <div class="floating-tag tag-top">NEW WAVE <span>✦</span></div>
-        <div class="floating-tag tag-bottom"><span class="equalizer"><i></i><i></i><i></i><i></i><i></i></span> صدای نسل جدید</div>
-        <div class="hero-star">✳</div>
+      <div class="hero-art">
+        <div class="disc">ALI<br><span>ARMINI</span></div>
+        <div class="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <p>FEEL THE BEAT</p>
       </div>
     </section>
 
-    <section class="section-wrap search-section" aria-label="جست‌وجو">
-      <div class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="اسم آهنگ یا رپر رو جست‌وجو کن..." aria-label="جست‌وجوی آهنگ یا رپر"><kbd>جست‌وجو</kbd></div>
-      <div class="quick-tags"><span>پیشنهاد امروز:</span><button data-search="مستقل">رپ مستقل</button><button data-search="تازه">تازه‌ها</button><button data-search="هیپ‌هاپ">هیپ‌هاپ</button></div>
-    </section>
-
-    <section class="section-wrap section-block" id="tracks">
-      <div class="section-heading"><div><div class="eyebrow">از هدفونت لذت ببر</div><h2>ویترین <span>آهنگ‌ها</span></h2></div><span class="section-note">آثاری که برای شنیدن مجاز هستند</span></div>
-      <div class="filter-row" id="filters">
-        <button class="filter-chip selected" data-filter="all">همه</button>
-        <button class="filter-chip" data-filter="new">تازه‌ها</button>
-        <button class="filter-chip" data-filter="indie">رپ مستقل</button>
-        <button class="filter-chip" data-filter="hiphop">هیپ‌هاپ</button>
+    <section class="section" id="music">
+      <div class="section-title">
+        <span>RAP MUSIC</span>
+        <h2>ویترین <b>آهنگ‌ها</b></h2>
+        <p>اسم آهنگ یا هنرمند رو جست‌وجو کن.</p>
       </div>
-      <div class="track-grid" id="trackGrid">
-        <article class="track-card" data-title="شروع تازه" data-artist="نمونه هنرمند" data-category="new">
-          <div class="track-cover cover-purple"><span class="cover-label">MH RAP / 01</span><div class="abstract-face">✳</div><span class="cover-index">01</span></div>
-          <div class="track-info"><div><h3>شروع تازه</h3><p>نمونه هنرمند · دمو</p></div><span class="track-tag">تازه</span></div>
-          <div class="track-controls"><button class="play-track" data-src="" aria-label="پخش شروع تازه">▶</button><span class="track-status">فایل صوتی اضافه نشده</span><button class="download-track" disabled title="هنوز فایل مجاز اضافه نشده">↓</button></div>
+
+      <input id="search" class="search" type="search" placeholder="جست‌وجوی آهنگ یا رپر..." aria-label="جست‌وجو">
+
+      <div class="music-grid" id="musicGrid">
+        <article class="music-card" data-search="آهنگ نمونه رپر نمونه">
+          <div class="cover cover-one"><span>01</span><b>NEW<br>WAVE</b></div>
+          <h3>آهنگ نمونه</h3>
+          <p>نام رپر را اینجا وارد کن</p>
+          <audio controls preload="none">
+            <source src="" type="audio/mpeg">
+            مرورگر شما از پخش صدا پشتیبانی نمی‌کند.
+          </audio>
+          <a class="download disabled" href="#" aria-disabled="true">دانلود آهنگ</a>
         </article>
-        <article class="track-card" data-title="کوچه‌های شب" data-artist="هنرمند مستقل" data-category="indie">
-          <div class="track-cover cover-pink"><span class="cover-label">UNDERGROUND</span><div class="abstract-face face-two">◈</div><span class="cover-index">02</span></div>
-          <div class="track-info"><div><h3>کوچه‌های شب</h3><p>هنرمند مستقل · دمو</p></div><span class="track-tag">مستقل</span></div>
-          <div class="track-controls"><button class="play-track" data-src="" aria-label="پخش کوچه‌های شب">▶</button><span class="track-status">فایل صوتی اضافه نشده</span><button class="download-track" disabled title="هنوز فایل مجاز اضافه نشده">↓</button></div>
+
+        <article class="music-card" data-search="شب آروم رپر نمونه">
+          <div class="cover cover-two"><span>02</span><b>NIGHT<br>VIBE</b></div>
+          <h3>شب آروم</h3>
+          <p>نام رپر را اینجا وارد کن</p>
+          <audio controls preload="none">
+            <source src="" type="audio/mpeg">
+            مرورگر شما از پخش صدا پشتیبانی نمی‌کند.
+          </audio>
+          <a class="download disabled" href="#" aria-disabled="true">دانلود آهنگ</a>
         </article>
-        <article class="track-card" data-title="بدون مرز" data-artist="گروه نمونه" data-category="hiphop">
-          <div class="track-cover cover-blue"><span class="cover-label">HIP HOP CULTURE</span><div class="abstract-face face-three">∞</div><span class="cover-index">03</span></div>
-          <div class="track-info"><div><h3>بدون مرز</h3><p>گروه نمونه · دمو</p></div><span class="track-tag">هیپ‌هاپ</span></div>
-          <div class="track-controls"><button class="play-track" data-src="" aria-label="پخش بدون مرز">▶</button><span class="track-status">فایل صوتی اضافه نشده</span><button class="download-track" disabled title="هنوز فایل مجاز اضافه نشده">↓</button></div>
+
+        <article class="music-card" data-search="زیرزمین رپ آندرگراند">
+          <div class="cover cover-three"><span>03</span><b>UNDER<br>GROUND</b></div>
+          <h3>زیرزمین</h3>
+          <p>نام رپر را اینجا وارد کن</p>
+          <audio controls preload="none">
+            <source src="" type="audio/mpeg">
+            مرورگر شما از پخش صدا پشتیبانی نمی‌کند.
+          </audio>
+          <a class="download disabled" href="#" aria-disabled="true">دانلود آهنگ</a>
         </article>
       </div>
-      <p class="empty-state" id="emptyState" hidden>چیزی پیدا نشد؛ اسم دیگری رو امتحان کن.</p>
-      <div class="demo-notice"><span>ⓘ</span><p>این‌ها کارت‌های نمونه‌اند و آهنگ واقعی نیستند. برای فعال‌شدن پخش و دانلود، فایل‌های صوتی دارای مجوز باید به سایت اضافه شوند.</p></div>
+      <p class="notice">آهنگ‌های این بخش نمونه هستند؛ برای پخش و دانلود واقعی باید فایل صوتی و لینک مجاز اضافه شود.</p>
     </section>
 
-    <section class="artist-section" id="artists">
-      <div class="section-wrap section-block">
-        <div class="section-heading"><div><div class="eyebrow">صداهای متفاوت</div><h2>رپرهای <span>قابل کشف</span></h2></div><p class="section-note">پروفایل هنرمندها در نسخه‌های بعدی کامل‌تر می‌شود.</p></div>
-        <div class="artist-grid">
-          <article class="artist-card"><div class="artist-avatar avatar-a">م</div><div><h3>هنرمند مستقل</h3><p>رپ مستقل · پروفایل نمونه</p></div><span>↗</span></article>
-          <article class="artist-card"><div class="artist-avatar avatar-b">R</div><div><h3>صدای تازه</h3><p>هیپ‌هاپ · پروفایل نمونه</p></div><span>↗</span></article>
-          <article class="artist-card"><div class="artist-avatar avatar-c">H</div><div><h3>نسل جدید</h3><p>آلترناتیو · پروفایل نمونه</p></div><span>↗</span></article>
-        </div>
+    <section class="section" id="artists">
+      <div class="section-title">
+        <span>ARTISTS</span>
+        <h2>دنیای <b>رپرها</b></h2>
+        <p>این بخش برای معرفی هنرمندان ساخته شده است.</p>
+      </div>
+      <div class="artist-grid">
+        <div class="artist"><span>R</span><div><h3>رپر اول</h3><p>معرفی هنرمند</p></div></div>
+        <div class="artist"><span>M</span><div><h3>رپر دوم</h3><p>معرفی هنرمند</p></div></div>
+        <div class="artist"><span>A</span><div><h3>رپر سوم</h3><p>معرفی هنرمند</p></div></div>
       </div>
     </section>
 
-    <section class="section-wrap join-banner" id="about">
-      <div class="join-symbol">✳</div><div><div class="eyebrow">صدای تو هم مهمه</div><h2>هنرمندی؟ جای تو اینجاست.</h2><p>برای معرفی اثر و همکاری، درخواستت رو برای تیم MASIH HACKRING بفرست.</p></div>
-      <a class="button button-primary" href="mailto:rap@masih-hackring.example?subject=%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%85%D8%B9%D8%B1%D9%81%DB%8C%20%D8%A2%D8%AB%D8%A7%D8%B1">درخواست همکاری ↗</a>
+    <section class="dedication" id="about">
+      <span class="star">✦</span>
+      <div>
+        <span class="small-title">MADE WITH RESPECT</span>
+        <h2>تقدیم به <b>علی آرمینی</b> ❤️</h2>
+        <p>این سایت با عشق از طرف <strong>مسیح هکرینگ</strong> تقدیم شده به داداش گلم، علی آرمینی.</p>
+        <a href="https://t.me/ALI_ARMINEH_Xx" target="_blank" rel="noopener noreferrer">@ALI_ARMINEH_Xx ↗</a>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer"><a class="brand" href="#"><span class="brand-mark">MH<span>✦</span></span><span class="brand-copy"><b>MASIH HACKRING</b><small>RAP فارسی</small></span></a><p>برای صداهای تازه، با احترام به حقوق هنرمندان.</p><span>© <span id="year"></span> MASIH HACKRING</span></footer>
+  <footer>
+    <a class="logo" href="#home">علی <span>آرمینی</span></a>
+    <p>طراحی و کدنویسی: مسیح هکرینگ</p>
+    <p>© <span id="year"></span> علی آرمینی</p>
+  </footer>
 
-  <div class="player-bar" id="playerBar" hidden>
-    <div class="player-track"><div class="mini-cover">MH</div><div><b id="playerTitle">عنوان آهنگ</b><small id="playerArtist">هنرمند</small></div></div>
-    <div class="player-main"><button id="playerPlay" aria-label="پخش یا توقف">▶</button><div class="timeline"><span id="currentTime">0:00</span><input id="seekBar" type="range" min="0" max="100" value="0" aria-label="موقعیت پخش"><span id="duration">0:00</span></div></div>
-    <button class="player-close" id="playerClose" aria-label="بستن پخش‌کننده">×</button>
-  </div>
-  <audio id="audioPlayer" preload="metadata"></audio>
   <script src="script.js"></script>
 </body>
-                                                                           </html>
+</html>
